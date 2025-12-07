@@ -1,0 +1,3 @@
+ALTER TABLE Produto DROP COLUMN codigo_sku;
+ALTER TABLE Produto DROP COLUMN tamanho;
+ALTER TABLE Produto DROP COLUMN cor;

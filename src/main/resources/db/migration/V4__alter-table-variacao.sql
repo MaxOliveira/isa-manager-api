@@ -1,0 +1,6 @@
+ALTER TABLE Variacao
+ADD CONSTRAINT fk_variacao_produto
+FOREIGN KEY (id_produto)
+REFERENCES Produto(id)
+ON DELETE CASCADE
+ON UPDATE CASCADE;
